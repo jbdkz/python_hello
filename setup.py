@@ -6,12 +6,12 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="python_hello",
     version="0.0.1",
-    author="Cedd Burge",
-    author_email="ceddlyburge@gmail.com",
+    author="John Diczhazy",
+    author_email="jbdkz100@gmail.com",
     description="A function that returns 'hello world'",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ceddlyburge/python-hello",
+    url="https://github.com/jbdkz/python-hello",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -22,6 +22,6 @@ setuptools.setup(
         'python_world>=0.0',
     ],
     dependency_links=[
-        'git+https://github.com/ceddlyburge/python_world#egg=python_world-0.0.1',
+        'git+https://github.com/jbdkz/python_world#egg=python_world-0.0.1',
     ]
 )
